@@ -1,0 +1,30 @@
+{
+  "name": "MagicMirrorWillSeeYouNowSkill",
+  "version": "1.0.0",
+  "description": "Lambda function for Alexa Skill Magic Mirror Will See You Now. It conducts journal therapy for you, and uses AWS IoT Device Gateway to send your log to Magic Mirror and have it analysed.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanaz/MirrorMirrorOnTheWallSkill"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "AWS Lambda",
+    "Alexa",
+    "skill",
+    "AWS IoT",
+    "device gateway"
+  ],
+  "author": "Joanna Zhang",
+  "contributors": "https://github.com/joanaz/MirrorMirrorOnTheWallSkill/graphs/contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joanaz/MirrorMirrorOnTheWallSkill/issues"
+  },
+  "homepage": "https://github.com/joanaz/MirrorMirrorOnTheWallSkill#readme",
+  "dependencies": {
+    "alexa-sdk": "latest",
+    "aws-iot-device-sdk": "latest"
+  }
+}

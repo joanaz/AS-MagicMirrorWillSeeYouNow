@@ -1,0 +1,17 @@
+HelloIntent hello
+HelloIntent hi
+YesIntent yes {hi|text}
+YesIntent yes {hello|text}
+YesIntent yes {hello Alexa|text}
+YesIntent yes {good morning Alexa my day was pretty good|text}
+YesIntent yes {my day was good I have been busy lately First I went to school then I had to work and after that I had to go to my guitar class I have you been playing guitar for three years already My guitar is Acoustic|text}
+YesIntent yeah {hello|text}
+YesIntent yep {good morning|text}
+YesIntent sure {good morning|text}
+YesIntent OK {good morning|text}
+NoIntent no
+NoIntent no it's OK
+NoIntent no this is it
+NoIntent no it's alright
+NoIntent no thanks
+NoIntent no that's all
