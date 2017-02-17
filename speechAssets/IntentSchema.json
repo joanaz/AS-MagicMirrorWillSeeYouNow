@@ -1,19 +1,21 @@
 {
   "intents": [{
-    "intent": "HelloIntent"
-  }, {
     "intent": "AMAZON.HelpIntent"
   }, {
     "intent": "AMAZON.StopIntent"
   }, {
     "intent": "AMAZON.CancelIntent"
   }, {
-    "intent": "YesIntent",
+    "intent": "AMAZON.YesIntent"
+  }, {
+    "intent": "AMAZON.NoIntent"
+  }, {
+    "intent": "HelloIntent"
+  }, {
+    "intent": "AnswerIntent",
     "slots": [{
-      "name": "text",
+      "name": "answer",
       "type": "AMAZON.LITERAL"
     }]
-  }, {
-    "intent": "NoIntent"
   }]
 }

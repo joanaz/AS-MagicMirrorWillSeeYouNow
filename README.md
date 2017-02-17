@@ -3,26 +3,11 @@ An [AWS Lambda](http://aws.amazon.com/lambda) function of an Alexa skill for vir
 
 It is complementary to the Magic Mirror Module [Magic Mirror Will See You Now]().
 
-## AWS IoT Credentials
-
-You need to setup an AWS IoT Device, and save the credentials locally in this repo. You can use the same credentials for the above complementary Magic Mirror Module.
-
-1. login to __AWS Management Console__
-2. find __AWS IoT__ service
-3. click on __Connect__ at the left menu bar
-4. under _Configuring a device_, click on __Get Started__
-5. choose __Linux/OSX__ platform, and __Node.JS__
-6. give your device a name
-7. download credentials and run the start.sh script, which will generate a root-CA.crt
-8. create a folder called __certs__ inside the src folder
-9. place all the credentials in the __certs__ folder
-10. open MirrorMirror.js, replace the __keyPath__, __certPath__, and __caPath__ to your own
-
 
 ## Dependencies
 
 - [alexa-sdk](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs) (installed via `npm install`)
-- [aws-iot-device-sdk](https://github.com/aws/aws-iot-device-sdk-js) (installed via `npm install`)
+
 
 ## Setup
 
