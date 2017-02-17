@@ -1,17 +1,14 @@
 HelloIntent hello
 HelloIntent hi
-YesIntent yes {hi|text}
-YesIntent yes {hello|text}
-YesIntent yes {hello Alexa|text}
-YesIntent yes {good morning Alexa my day was pretty good|text}
-YesIntent yes {my day was good I have been busy lately First I went to school then I had to work and after that I had to go to my guitar class I have you been playing guitar for three years already My guitar is Acoustic|text}
-YesIntent yeah {hello|text}
-YesIntent yep {good morning|text}
-YesIntent sure {good morning|text}
-YesIntent OK {good morning|text}
-NoIntent no
-NoIntent no it's OK
-NoIntent no this is it
-NoIntent no it's alright
-NoIntent no thanks
-NoIntent no that's all
+HelloIntent how are you
+
+AnswerIntent {hello to you too my day was good|answer}
+AnswerIntent {good morning my day was pretty good|answer}
+AnswerIntent {my day was good I have been busy lately first I went to school then I had to work and after that I had to go to my guitar class I have you been playing guitar for three years already my guitar is Acoustic|answer}
+AnswerIntent {my vision hopes for the virtual assistant bot platforms of the future hi how can I help you today I want to lose ten pounds setup my schedule to make it happen ok but why do you want to lose ten pounds|answer}
+AnswerIntent {because I look gross and need to lose weight ok I can set up your schedule and diet to ensure you lose ten pounds within the next thirty days but what will happen in the thirty days after|answer}
+AnswerIntent {I suggest you rethink your request to optimize for wanting to live a healthier lifestyle explain|answer}
+AnswerIntent {well we can regulate your intake of calories but when that regulation stops if you have not picked up the habits of choosing your own food exercising and managing your stress and sleep you will quickly bounce back to gaining weight and being unhappy|answer}
+AnswerIntent {the weight is an affect of the lifestyle so to fix the weight fix the lifestyle and habits and the weight will adjust ok bot setup my schedule to help me adjust to healthier lifestyle habits ok starting a habit adjustment plan the above conversation does not exist nor is it possible in any existing bot or platform regardless of all the glitter and buzz words entrepreneurs and big firms exhort to and clients|answer}
+AnswerIntent {the main reason inference as people we rarely know what we want let alone understand why we want things I dont want my assistant bot to just execute my commands blindly and automatically order me toilet paper once a month or spam colleagues with calendar invites until they fit an arbitrary log constraint chunk of my calendar I want these systems to have my best interest in mind and be able to help me better understand myself as a person and actually improve my life beyond the material trinkets|answer}
+
